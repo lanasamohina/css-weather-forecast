@@ -1,0 +1,166 @@
+/************
+*****Adjustment settings****
+*************/
+body{
+    margin: 0;
+    background-color: #3399cc;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border: 10px solid #2b81ac;
+    height: 100%;
+    display: block;
+
+}
+ul{
+    margin: 0;
+    padding: 0
+}
+*{
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+/*********Main content***********/
+
+h1{
+    color: #ffffff;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.town-list{
+    font-size: 0;
+}
+
+.list-item-inner{
+    width:100%;
+    height: 100%;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+.wrapper:hover .list-item-inner:not(:hover)
+{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.wrapper:hover{
+    cursor: pointer;
+}
+
+.lisbon .list-item-inner{
+    background-color: #3399cc;
+    width: 100%;
+    height: 100%;
+}
+
+.town-list-item{
+    clear: both;
+    list-style: none;
+    border: 4px solid #ffffff;
+    display: inline-block;
+    color: white;
+    height: 115px;
+    margin: 0;
+    padding: 0;
+}
+.lisbon{
+    width: 50%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.paris{
+    width: 25%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.paris .list-item-inner{
+    background-color: #33cccc;
+}
+.belgrade{
+    width: 25%;
+    border-bottom: 0;
+}
+.belgrade .list-item-inner{
+    background-color: #996699;
+}
+.moscow{
+    width: 25%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.moscow .list-item-inner{
+    background-color: #c24747;
+}
+.tel-aviv{
+    width: 25%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.tel-aviv .list-item-inner{
+    background-color: #e2674a;
+}
+.cair{
+    width: 25%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.cair .list-item-inner{
+    background-color: #ffcc66;
+}
+.new-york{
+    width: 25%;
+    border-bottom: 0;
+}
+.new-york .list-item-inner{
+    background-color: #99cc99;
+}
+.new-delhi{
+    width: 25%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.new-delhi .list-item-inner{
+    background-color: #669999;
+}
+.sanfrancisco{
+    width: 50%;
+    border-right: 0;
+    border-bottom: 0;
+}
+.sanfrancisco .list-item-inner{
+    background-color: #cc6699;
+}
+.tokyo{
+    width: 25%;
+    border-bottom: 0;
+}
+.tokyo .list-item-inner{
+    background-color: #339966;
+}
+.sydney{
+    width: 100%;
+}
+.sydney .list-item-inner{
+     background-color: #666699;
+ }
+.opacity-text{
+    opacity: .5;
+    font-size: 18px;
+}
+.wi{
+    font-size: 26px;
+}
+.bottom-description{
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
